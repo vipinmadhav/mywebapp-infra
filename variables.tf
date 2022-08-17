@@ -13,7 +13,3 @@ variable "project_name" {
 variable "acm_ssl_arn" {
   type = string
 }
-
-variable "backend_bucket" {
-  type = string
-}

@@ -28,3 +28,10 @@ terraform apply -var-file=mywebapp-env-var.tfvars
 ```
 terraform output
 ```
+
+### To delete all resources created using this tool,
+
+```
+terraform destroy -var-file=mywebapp-env-var.tfvars
+```
+
