@@ -1,12 +1,9 @@
 # Mywebapp infra automation.
 
-### This repo contains IAC codes for infrastructure for a static website hosted in AWS S3 and served using AWS Cloudfront CDN.
-
-### Terraform states are stored in S3 bucket and mention the correct bucket name in the main.tf
-
-### Parameters related to this project is stored in the file "mywebapp-env-var.tfvars". Review and modify the parameters.
-
-### connect to aws cli using the access key and secret access key
+* This repo contains IAC codes for infrastructure for a static website hosted in AWS S3 and served using AWS Cloudfront CDN.
+* Terraform states are stored in S3 bucket and mention the correct bucket name in the main.tf
+* Parameters related to this project is stored in the file "mywebapp-env-var.tfvars". Review and modify the parameters.
+* connect the aws cli using the access key and secret access key
 
 ### To initialize the project,
 
