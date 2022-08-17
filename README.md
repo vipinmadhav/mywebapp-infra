@@ -4,6 +4,7 @@
 * Terraform states are stored in S3 bucket and mention the correct bucket name in the main.tf
 * Parameters related to this project is stored in the file "mywebapp-env-var.tfvars". Review and modify the parameters.
 * connect the aws cli using the access key and secret access key
+* Once the infrastructure is ready, upload the website content to the newly created s3 bucket.
 
 ### To initialize the project,
 
